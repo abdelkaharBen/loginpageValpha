@@ -1,0 +1,157 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url('background.png');
+    background-size: cover;
+}
+
+
+.title h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 6%;
+    color: rgb(72, 125, 248);
+}
+
+.loginbox h1 {
+    text-align: center;
+    color: white;
+    margin-top: -20%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.forms {
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+.loginbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    padding: 70px;
+    transform: translate(-50%, -50%);
+    background: rgb(72, 125, 248);
+    box-sizing: border-box;
+    box-shadow: 0 25px 35px rgb(255, 255, 255);
+    border-radius: 100px;
+}
+
+.loginbox .userbox input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    color: rgb(250, 250, 250);
+    margin-bottom: 20px;
+    border-radius: 100px;
+    border-color: rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(252, 252, 252);
+    outline: none;
+    background: transparent;
+    text-align: center;
+}
+
+.loginbox .passbox input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    color: rgb(250, 250, 250);
+    margin-bottom: 20px;
+    border-radius: 100px;
+    border-color: rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(255, 255, 255);
+    outline: none;
+    background: transparent;
+    text-align: center;
+}
+
+.loginbox .button button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 50%;
+    padding: 15px 0;
+    font-size: 20px;
+    color: rgb(250, 250, 250);
+    border-radius: 100px;
+    border-color: rgb(242, 220, 253);
+    border-bottom: 5px solid rgb(255, 255, 255);
+    outline: none;
+    background: transparent;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.loginbox .button button:hover {
+    background-color: rgb(138, 175, 255);
+    cursor: pointer;
+}
+
+
+.needhelp button {
+    margin-top: 20px;
+    width: 70%;
+    font-size: 20px;
+    background: transparent;
+    border-color: white;
+    border-radius: 20px;
+    outline: none;
+    background: transparent;
+    text-align: center;
+    padding: 1px;
+    transition: all 0.5s;
+}
+
+
+
+.needhelp button a {
+    text-decoration: none;
+    color: beige;
+    transition: all 0.5s;
+   
+}
+
+
+.needhelp button:hover{
+      background-color: rgb(138, 175, 255);
+    cursor: pointer;
+}
+
+
+.socialmedia {
+    text-align: center;
+}
+
+.socialmedia button {
+    background-color: rgb(72, 125, 248);
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-color: rgb(255, 255, 255);
+    transition: all 0.5s;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    color: white;
+}
+
+.socialmedia button:hover{
+    background-color: rgb(138, 175, 255);
+    cursor: pointer
+}
